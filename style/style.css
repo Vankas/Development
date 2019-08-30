@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header_wrapper {
+    width: 1024px;
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 65px;
+    border: 1px solid blue;
+}
+
+menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid orange;
+}
+
+menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    text-align: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.phone a:hover {
+    color: rgb(0, 183, 255);
+}
