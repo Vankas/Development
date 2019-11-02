@@ -189,10 +189,12 @@ menu li a {
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 2px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: transparent;
     border-color: transparent;
+    outline: none;
+    cursor: pointer;
 }
 
 .button__svg,
@@ -206,7 +208,7 @@ menu li a {
 }
 
 .button__rect {
-    stroke: #fff;
+    stroke: rgb(0, 0, 0);
     stroke-width: 4;
     transition: 1s;
     stroke-dasharray: 720, 500;
@@ -217,6 +219,11 @@ menu li a {
     stroke-dashoffset: 160;
     stroke-dasharray: 150, 430;
     stroke: #00bcd4;
+}
+
+.white {
+    stroke: #fff;
+    color: #fff;
 }
 
 
@@ -231,7 +238,7 @@ menu li a {
     align-items: center;
     width: 100%;
     height: auto;
-    background: linear-gradient(45deg, rgb(110, 119, 114), transparent);
+    /* background: linear-gradient(45deg, rgb(110, 119, 114), transparent); */
 }
 
 .content__works h1 {
@@ -251,7 +258,7 @@ menu li a {
 .work {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     width: 100%;
     height: auto;
@@ -287,9 +294,11 @@ menu li a {
 }
 
 .work-info {
-    width: 45%;
+    width: auto;
     height: auto;
-    padding: 0px 0px 0px 100px;
+    /* padding: 0px 0px 0px 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .work-info h2 {
