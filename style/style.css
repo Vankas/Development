@@ -316,125 +316,203 @@ menu li a {
     margin: 0 0 50px 0px;
 }
 
-.container_creation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/*-------------------------------------------------------- Разработка --------------------------------- */
+
+section {
+    margin: 0px 0px 151px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    section {
+        margin: 0px 0px 100px;
+    }
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0px auto;
+    padding: 0px 40px;
+}
+
+.cpvtjE .container .heading-wrapper {
+    max-width: 682px;
+}
+
+h3 {
+    font-size: 44px;
+    line-height: 53px;
+    letter-spacing: -0.48px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: CircularStd;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.heading-wrapper {
+    max-width: 610px;
     text-align: center;
-    flex-direction: column;
+    margin: 0px auto;
+}
+
+.work-flow-listing {
+    max-width: 930px;
+    margin: 39px auto 0px;
+}
+
+.work-flow-listing .work-flow-listing-row {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.very-light-blue {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 230, 251);
+    border-image: initial;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow {
+    position: relative;
+    max-width: 278px;
     width: 100%;
-    height: auto;
+    padding: 20px;
 }
 
-.container_creation h1 {
-    font-size: 50px;
-    line-height: 1.16;
-    letter-spacing: -1px;
-    font-family: Roboto-Medium;
+.work-flow-listing .work-flow-listing-row .single-workflow.very-light-blue .workflow-no {
+    color: rgb(141, 127, 216);
+    background: rgb(220, 230, 251);
 }
 
-.container_creation p {
-    color: #616161;
-    font-size: 14px;
-    line-height: 1.8;
-    font-family: Roboto-Regular;
-    width: 1100px;
-}
-
-.creation {
+.work-flow-listing .work-flow-listing-row .single-workflow .workflow-no {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    line-height: 23px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    -webkit-box-align: center;
     align-items: center;
-    width: 100%;
-    height: auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-.creation_img {
-    display: flex;
-    margin-right: 60px;
-}
-
-.creation_img img {
-    width: 440px;
-    height: 275px;
-}
-
-.creation_pros {
-    display: flex;
-    flex-direction: column;
-}
-
-.creation_pros h2 {
-    font-size: 24px;
-    line-height: 1.2;
-    font-family: Roboto-Medium;
-}
-
-.creation_pros ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.creation_pros li::before {
-    content: "\e080";
-    margin-right: 10px;
-}
-
-.creation_pros li {
-    font-size: 15px;
-    line-height: 21px;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-align: left;
-    color: #555;
-    font-family: Roboto-Regular;
-}
-
-.creation__info {
-    display: flex;
-    flex-direction: column;
+    -webkit-box-pack: center;
     justify-content: center;
-    align-items: center;
+    font-family: CircularStd;
+    font-weight: 700;
 }
 
-.creation__info h1 {
-    font-size: 50px;
-    line-height: 1.16;
-    letter-spacing: -1px;
-    font-family: Roboto-Medium;
+.work-flow-listing .work-flow-listing-row .single-workflow .img-block {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
 }
 
-.creation__info_visability {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.work-flow-listing .work-flow-listing-row .single-workflow h6 {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Graphik;
+    margin-bottom: 4px;
+    font-weight: 600;
 }
 
-.creation__info_visability_col {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: auto;
+.work-flow-listing .work-flow-listing-row .single-workflow p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
 }
 
-.creation__info_visability_col .title {
-    width: 200px;
-    font-size: 13px;
-    color: black;
-    line-height: 1.6;
-    font-family: Roboto-Regular;
-    text-transform: uppercase;
+.work-flow-listing .work-flow-listing-row .single-workflow .arrow-img {
+    width: 15px;
+    height: 39px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -33px;
+    margin: 0px auto;
 }
 
-.creation__info_visability_col p {
-    width: 200px;
-    font-size: 13px;
-    color: #8a8a8a;
-    line-height: 1.6;
-    font-family: Roboto-Regular;
+.work-flow-listing .work-flow-listing-row .single-workflow.duck-egg-blue {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(209, 237, 235);
+    border-image: initial;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.duck-egg-blue .workflow-no {
+    color: rgb(87, 174, 168);
+    background: rgb(209, 237, 235);
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-peach {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(242, 219, 203);
+    border-image: initial;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-peach .workflow-no {
+    color: rgb(207, 143, 99);
+    background: rgb(242, 219, 203);
+}
+
+.work-flow-listing .process-chart {
+    margin: 38px 0px;
+}
+
+.work-flow-listing .process-chart svg {
+    width: 930px;
+}
+
+.work-flow-listing .work-flow-listing-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-green {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(209, 237, 235);
+    border-image: initial;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-green .workflow-no {
+    color: rgb(87, 174, 168);
+    background: rgb(209, 237, 235);
+}
+
+.work-flow-listing .work-flow-listing-row.reverse .single-workflow .arrow-img {
+    bottom: initial;
+    top: -33px;
+}
+
+
+/* .cpvtjE .container .work-flow-listing .work-flow-listing-row .single-workflow.very-light-blue {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 230, 251);
+    border-image: initial;
+}
+
+.cpvtjE .container .work-flow-listing .work-flow-listing-row .single-workflow.very-light-blue .workflow-no {
+    color: rgb(141, 127, 216);
+    background: rgb(220, 230, 251);
+} */
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-peach-three {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(246, 229, 196);
+    border-image: initial;
+}
+
+.work-flow-listing .work-flow-listing-row .single-workflow.light-peach-three .workflow-no {
+    color: rgb(210, 169, 90);
+    background: rgb(246, 229, 196);
 }
